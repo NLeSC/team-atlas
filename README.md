@@ -11,10 +11,10 @@ The Project maps below serve as a high level overview of all the goals, deadline
 
 ### Phenology Generalization
 
-#### Generalization of eScience tools
-#### Notebooks for education
-#### Comparison between Dask and Spark
-#### Publish previous work 
+* Generalization of eScience tools
+* Notebooks for education
+* Comparison between Dask and Spark
+* Publish previous work 
 
 ### Ice Shelves
 
