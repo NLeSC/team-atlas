@@ -23,7 +23,6 @@ The goal of this project is to use direct (backscatter) and indirect (slope and 
 
 According to the proposal and previous work from Manuel and Xu, we are going to achieve this by three steps:
 
--  Step 1: We will develop a surrogate model based on ML to map landscape model parameters (input) to ASCAT obervations (output)
--  Step 2: Based on this surrogate model, we can tweak the landscape model parameters to get a series of ASCAT obervations. Therefore we can study the sensitivity of ASCAT obervations to certain parameters in landscape model.
--  Step 3: Based on the surrogate model acquired in Step 1, and knowledge on sensitivity from Step 2, we can detect the anomalies in the landscape model.
--  Step 4: By using the LDAS-Monde assimilation system, we can directly assimilate ASCAT observations into Landscape model.
+-  Step 1: Develop a surrogate model based on ML to map land-surface model parameters (input) to ASCAT obervations (output).
+-  Step 2: Study the sensitivity of ASCAT obervations to certain parameters in land-surface model. This will be done by adding very small perturbations from an assumed distribution to the model states, and quantify the sensitivity of the ML-derived model. This is to ensure that the surrogate model is robust.
+-  Step 3: Data assimilation. Use the surrogate model as a measurement operator in an assimilation framework to assimilate the ASCAT observables into the land-surface model. An example of the assimilation framework is LDAS-Monde assimilation system, which only works for soil moisture. Current plan is open to other framework or implement their own assimilation system.
