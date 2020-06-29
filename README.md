@@ -19,6 +19,7 @@ Contributions to external projects, packages, tools, etc. are listed [here](cont
 * Publish previous work 
 
 ### Ice Shelves
+This project aims at identifying and quantifying damage (sheaar distortions leading to crevasses etc.) in antarctic ice shelves from satellite remote sensing data (optical/NIR imaging as well as (In)SAR), with the goal of providing a workflow and platform to monitor ice shelves and their evolution over the entire continent on an on-going basis.  
 
 ### Global Vegetation
 The goal of this project is to use direct (backscatter) and indirect (slope and curvature) ASCAT observations to monitor the vegetation water processes and detect the anomalies.
