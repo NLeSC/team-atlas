@@ -32,3 +32,9 @@ According to the proposal and previous work from Manuel and Xu, we are going to 
 
 ### Eratosthenes
 The Eratosthenes project aims at using the shadows that mountain peaks cast on glaciers to estimate the glaciers' elevation change. Repeat high-resolution satellite images will be used to determine the displacement of the shadow edge, which will then be translated into a vertical elevation difference.
+
+### Dark Generators
+First three goals: 
+- Simulators: CMB, Lensing, LHC
+- Parallel computation
+- Network optimization
